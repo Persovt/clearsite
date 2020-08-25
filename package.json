@@ -1,0 +1,31 @@
+{
+  "name": "clearsite",
+  "version": "1.0.0",
+  "description": "# included:   - normalize.css   - jquery 3.5.1   - wowjs   - bootstrap   - font awesome v4",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Persovt/clearsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Persovt/clearsite/issues"
+  },
+  "homepage": "https://github.com/Persovt/clearsite#readme"
+}
