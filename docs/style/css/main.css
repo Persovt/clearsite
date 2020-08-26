@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'FeltTipWoman';
+  src: local("FeltTipWoman"), url("https://nomail.com.ua/files/woff/d5c06ac68b9323f775a94c311b12bc15.woff") format("woff"); }
+
+@font-face {
+  font-family: 'NexaBold';
+  src: local("NexaBold"), url("https://nomail.com.ua/files/woff/c9f309b3d47969ecac64a77a6c672594.woff") format("woff"); }
+
+@font-face {
+  font-family: 'NexaLight';
+  src: local("NexaLight"), url("https://nomail.com.ua/files/woff/12108809f49c49bcdc126dcecc938761.woff") format("woff"); }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.page {
+  overflow: hidden;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%; }
+
+.author {
+  margin: 0 5%;
+  padding: 10px 0;
+  border-top: solid 1px #bebebe;
+  color: #bebebe;
+  font-family: "NexaLight";
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.45px; }
+
+.header {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-attachment: fixed;
+  background-image: url("../../img/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 90%;
+  justify-content: center;
+  border-bottom: solid 1px #f1f1f1; }
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+
+.nav-link {
+  white-space: nowrap;
+  color: silver;
+  font-family: "NexaLight";
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin: 0 20px;
+  transition: 0.3s all; }
+
+.nav-link:hover {
+  color: #bdbdbd;
+  text-shadow: 0 0 2px #bdbdbd;
+  font-size: 1.3rem;
+  transition: 0.3s all; }
+
+.brand {
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column; }
+  .brand__image {
+    max-width: 50vw;
+    max-height: 50vh; }
+  .brand__icon {
+    position: relative; }
+  .brand__icon::after {
+    content: 'TM';
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #f1f1f1;
+    font-family: "NexaBold";
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.9px; }
+  .brand__name {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: #f1f1f1;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: "NexaLight";
+    font-weight: 300;
+    letter-spacing: 1.5px; }
+  .brand__jwood {
+    font-family: "NexaBold";
+    font-weight: 600;
+    letter-spacing: 1.5px; }
+
+.scrollDown {
+  margin-top: 40px;
+  text-align: center;
+  position: absolute;
+  color: #f1f1f1;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "NexaBold";
+  font-size: 0.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  padding-bottom: 50px; }
+  .scrollDown a {
+    color: #f1f1f1; }
+  .scrollDown__arrow {
+    margin-top: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 10px;
+    transition: 0.3s all; }
+  .scrollDown__arrow:hover {
+    transition: 0.3s all;
+    top: 5px;
+    font-size: 1.8rem;
+    text-shadow: 0 0 2px white; }
+
+.sec-1 {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: white; }
+
+.photograph-photo {
+  margin: 20px 20px 20px 60px;
+  max-height: 400px;
+  max-width: 350px; }
+
+.wraper {
+  display: flex; }
+
+.aboutMe {
+  color: #202020; }
+  .aboutMe__title {
+    font-family: "NexaLight";
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 4;
+    text-transform: uppercase;
+    letter-spacing: 2.39px; }
+  .aboutMe__text {
+    font-family: "openSans" "sans-serif";
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 2; }
+  .aboutMe__author {
+    color: #202020;
+    font-family: "FeltTipWoman";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 50px; }
+
+.sec-2 {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-image: url("../../img/Background-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.portfolio {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .portfolio__title {
+    margin: 30px 0;
+    color: #f1f1f1;
+    font-family: "NexaLight";
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 6px; }
+  .portfolio__works {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 120px);
+    grid-gap: 1em;
+    grid-template-rows: 120px 120px; }
+  .portfolio__work img {
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+    transition: 0.5s all; }
+  .portfolio__work img:hover {
+    transition: 0.5s all;
+    max-width: 120px;
+    max-height: 120px;
+    box-shadow: 0 0 15px white; }
+
+.wraper {
+  display: flex;
+  justify-content: center; }
+
+.contact {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 689px;
+  height: 48px;
+  color: #202020;
+  font-family: "NexaLight";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7;
+  text-transform: uppercase;
+  letter-spacing: 6px; }
+  .contact__contactName {
+    color: #202020;
+    font-family: "NexaBold";
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px; }
+  .contact__mail {
+    margin-bottom: 20px;
+    margin-top: 60px; }
+  .contact__social {
+    font-size: 1rem;
+    margin-top: 20px; }
+    .contact__social .fa {
+      position: relative;
+      cursor: pointer;
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+      text-align: center; }
+    .contact__social .fa:hover {
+      color: silver; }
+    .contact__social .fa:hover::after {
+      border-color: silver;
+      box-shadow: 0 0 2px silver; }
+    .contact__social .fa::after {
+      content: '';
+      position: absolute;
+      border: 1px solid black;
+      border-radius: 50%;
+      left: 40%;
+      top: 45%;
+      width: 100%;
+      height: 100%;
+      transform: translate(-50%, -50%); }
+
+.sec-3 {
+  position: relative;
+  padding: 100px 0; }

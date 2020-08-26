@@ -7,4 +7,7 @@
   - bootstrap
   - font awesome v4
 
+# GULP FILE:
+  - watch scss files and autocomplite in css file
+  - browserSync
 # MY GIT: https://github.com/Persovt
